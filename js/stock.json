@@ -1,0 +1,224 @@
+
+{
+    "cepas": [{
+            "nombre": "Wedding cake",
+            "id": 1,
+            "foto": "./imagenes/wedding-cake.png",
+            "tipo": "Hibrida",
+            "thc": 24,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka Triangle Mints #23, Pink Cookies.",
+            "precio": 6500
+        },
+        {
+            "nombre": "Gelato",
+            "id": 2,
+            "foto": "./imagenes/Gelato.png",
+            "tipo": "Hibrida",
+            "thc": 17,
+            "cbd": 0,
+            "sexo": "Regular",
+            "familia": "Aka Gelato 42, Larry Bird, Zelato.",
+            "precio": 7500
+        },
+        {
+            "nombre": "Sour Diesel",
+            "id": 3,
+            "foto": "./imagenes/Sour-Diesel.png",
+            "tipo": "Hibrida",
+            "thc": 19,
+            "cbd": 0,
+            "sexo": "Feminizada",
+            "familia": "Aka Sour D, Sour Deez.",
+            "precio": 6000
+        },
+        {
+            "nombre": "OG Kush",
+            "id": 4,
+            "foto": "./imagenes/OG-Kush.png",
+            "tipo": "Hibrida",
+            "thc": 18,
+            "cbd": 0,
+            "sexo": "Regular",
+            "familia": "AKa Premium OG Kush.",
+            "precio": 6500
+        },
+        {
+            "nombre": "Jack Herer",
+            "id": 5,
+            "foto": "./imagenes/Jack-Herer.png",
+            "tipo": "Sativa",
+            "thc": 18,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka JH, The Jack, Premium Jack, Platinum Jack, Jack.",
+            "precio": 8000
+        },
+        {
+            "nombre": "Northern Lights",
+            "id": 6,
+            "foto": "./imagenes/Northern-lights.png",
+            "tipo": "Indica",
+            "thc": 18,
+            "cbd": 1,
+            "sexo": "Regular",
+            "familia": "Aka NL.",
+            "precio": 7000
+        },
+        {
+            "nombre": "MAC",
+            "id": 7,
+            "foto": "./imagenes/MAC.png",
+            "tipo": "Hibrida",
+            "thc": 22,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka Miracle Alien Cookies, Miracle Cookies.",
+            "precio": 7500
+        },
+        {
+            "nombre": "Super Lemon Haze",
+            "id": 8,
+            "foto": "./imagenes/SLH.png",
+            "tipo": "Sativa",
+            "thc": 19,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka SLH.",
+            "precio": 5800
+        },
+        {
+            "nombre": "AK-47",
+            "id": 9,
+            "foto": "./imagenes/AK-47.png",
+            "tipo": "Hibrida",
+            "thc": 19,
+            "cbd": 0,
+            "sexo": "Regular",
+            "familia": "Aka AK.",
+            "precio": 5800
+        },
+        {
+            "nombre": "Bubble Gum",
+            "id": 10,
+            "foto": "./imagenes/BubbleGum.png",
+            "tipo": "Hibrida",
+            "thc": 17,
+            "cbd": 1,
+            "sexo": "Regular",
+            "familia": "Aka Bubba Gum.",
+            "precio": 7000
+        },
+        {
+            "nombre": "Blueberry",
+            "id": 11,
+            "foto": "./imagenes/blueberry.png",
+            "tipo": "Indica",
+            "thc": 17,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka Berry Blue.",
+            "precio": 6300
+        },
+        {
+            "nombre": "Tropicana Cookies",
+            "id": 12,
+            "foto": "./imagenes/TropicanaCookies.png",
+            "tipo": "Sativa",
+            "thc": 16,
+            "cbd": 0,
+            "sexo": "Feminizada",
+            "familia": "Aka Tropicanna Cookies, Tropicanna Cookies F2, MTN Trop.",
+            "precio": 6000
+        },
+        {
+            "nombre": "Ice Cream",
+            "id": 13,
+            "foto": "./imagenes/Icecream.png",
+            "tipo": "Hibrida",
+            "thc": 18,
+            "cbd": 1,
+            "sexo": "Regular",
+            "familia": "Aka Ice Cream Kush, Ice Cream #1, Ice cream #3.",
+            "precio": 6900
+        },
+        {
+            "nombre": "Black Diamond",
+            "id": 14,
+            "foto": "./imagenes/Blackdiamont.png",
+            "tipo": "Indica",
+            "thc": 17,
+            "cbd": 1,
+            "sexo": "Regular",
+            "familia": "Aka Black Diamond OG, Black Diamond Kush.",
+            "precio": 7200
+        },
+        {
+            "nombre": "Haze",
+            "id": 15,
+            "foto": "./imagenes/Haze.png",
+            "tipo": "Sativa",
+            "thc": 18,
+            "cbd": 0,
+            "sexo": "Feminizada",
+            "familia": "Aka Original Haze, Haze Brothers.",
+            "precio": 5800
+        },
+        {
+            "nombre": "White Fire OG",
+            "id": 16,
+            "foto": "./imagenes/Fire.png",
+            "tipo": "Hibrida",
+            "thc": 22,
+            "cbd": 1,
+            "sexo": "Regular",
+            "familia": "Aka WiFi OG, WiFi, White Fire, WiFi Kush.",
+            "precio": 7600
+        },
+        {
+            "nombre": "Nerds",
+            "id": 17,
+            "foto": "./imagenes/Nerds.png",
+            "tipo": "Hibrida",
+            "thc": 24,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka Nerdz, Blue Nerds, Pink Nerds, Nerds OG, Nerdz OG, Blue Nerd.",
+            "precio": 8000
+        },
+        {
+            "nombre": "Afghani",
+            "id": 18,
+            "foto": "./imagenes/Afghani.png",
+            "tipo": "Indica",
+            "thc": 18,
+            "cbd": 0,
+            "sexo": "Regular",
+            "familia": "Aka Afghan, Afghanistan.",
+            "precio": 7000
+        },
+        {
+            "nombre": "Sour Tangie",
+            "id": 19,
+            "foto": "./imagenes/Sour-Tangie.png",
+            "tipo": "Sativa",
+            "thc": 18,
+            "cbd": 1,
+            "sexo": "Feminizada",
+            "familia": "Aka Sunva.",
+            "precio": 6800
+        },
+        {
+            "nombre": "Blueberry Kush",
+            "id": 20,
+            "foto": "./imagenes/Blueberry-Kush.png",
+            "tipo": "Indica",
+            "thc": 18,
+            "cbd": 1,
+            "sexo": "Regular",
+            "familia": "Aka Blueberry OG Kush.",
+            "precio": 7600
+        }
+    ]
+}

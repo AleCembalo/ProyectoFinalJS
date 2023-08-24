@@ -1,0 +1,305 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@600&family=Indie+Flower&family=Pacifico&family=Shadows+Into+Light&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 18px;
+  background-color: hsl(217, 54%, 11%);
+}
+body .modal-content {
+  background-color: hsla(217, 54%, 11%, 0.7);
+  box-shadow: 0px 5px 20px hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+}
+body .modal-content button {
+  background-color: hsl(217, 54%, 11%);
+  padding: 5px 10px;
+  border: none;
+}
+body .modal-content .table {
+  color: hsl(0, 0%, 100%);
+}
+body .modal-content .table tbody {
+  color: hsl(0, 0%, 100%);
+}
+body .modal-content .table tbody .fotocarro {
+  width: 50px;
+  height: 50px;
+}
+body .modal-content .modal-footer {
+  position: relative;
+}
+body .modal-content .modal-footer .btn {
+  padding: 5px 10px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 10px hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
+}
+body .modal-content .modal-footer .terminarCompra {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+}
+body header {
+  height: 100px;
+  padding: 0px 30px;
+  border-bottom: 2px solid hsl(216, 50%, 16%);
+  box-shadow: 0px 5px 20px hsl(0, 0%, 100%);
+}
+@media only screen and (min-width: 660px) {
+  body header {
+    padding: 10px 70px 0px 50px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  body header {
+    padding: 10px 100px 0px 100px;
+    height: 150px;
+  }
+}
+body header .navbar {
+  font-size: 25px;
+}
+body header .navbar a {
+  color: hsl(215, 51%, 70%);
+}
+body header .navbar .logo {
+  color: hsl(215, 51%, 70%);
+  font-size: 22px;
+  font-family: "Dancing Script", cursive;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (min-width: 960px) {
+  body header .navbar .logo {
+    font-size: 32px;
+  }
+}
+body header .navbar .carrito {
+  font-size: 25px;
+  position: relative;
+}
+@media only screen and (min-width: 660px) {
+  body header .navbar .carrito {
+    font-size: 30px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  body header .navbar .carrito {
+    font-size: 40px;
+  }
+}
+body header .navbar .carrito button {
+  background-color: hsl(217, 54%, 11%);
+  padding: 5px 10px;
+  border: none;
+}
+body header .navbar .carrito button i {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+}
+body header .navbar .carrito button span {
+  font-size: 12px;
+  color: hsl(217, 54%, 11%);
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+@media only screen and (min-width: 960px) {
+  body header .navbar .carrito button span {
+    font-size: 18px;
+    top: 10px;
+    right: 15px;
+  }
+}
+body header .navbar .collapse {
+  justify-content: right;
+  padding-top: 25px;
+}
+body header .navbar .collapse .dropdown-menu {
+  background-color: hsl(217, 54%, 11%);
+  border-color: hsl(215, 51%, 70%);
+}
+body main {
+  padding: 50px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+body main .tarjeta {
+  width: 200px;
+  min-height: 450px;
+  padding: 16px;
+  margin: 0;
+  margin: 50px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 8px;
+  box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.15);
+}
+body main .tarjeta .imagen {
+  width: 100%;
+  height: 170px;
+  border-radius: 8px;
+  position: relative;
+}
+body main .tarjeta .imagen .coco {
+  width: 100%;
+  height: 170px;
+}
+body main .tarjeta .imagen .icono {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-color: hsla(178, 100%, 50%, 0.35);
+  transition: 1s;
+  opacity: 0;
+  position: absolute;
+  top: 0px;
+  border-radius: 8px;
+}
+body main .tarjeta .imagen :hover {
+  opacity: 1;
+}
+body main .tarjeta .texto1 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  transition: 0.25s;
+  margin-top: 0.8em;
+  margin-bottom: 0.8em;
+}
+body main .tarjeta .texto1:hover {
+  cursor: pointer;
+  color: hsl(178, 100%, 50%);
+}
+body main .tarjeta .texto2 {
+  color: hsl(215, 51%, 70%);
+  font-weight: 300;
+  font-size: 0.8em;
+}
+body main .tarjeta .texto3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+body main .tarjeta .texto3 .izquierda {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  font-weight: 400;
+  font-size: 0.7em;
+  color: hsl(178, 100%, 50%);
+}
+body main .tarjeta .texto3 .centro {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  font-weight: 400;
+  font-size: 0.7em;
+  color: hsl(178, 100%, 50%);
+}
+body main .tarjeta .texto3 .derecha {
+  display: flex;
+  flex-direction: row;
+  gap: 0.3em;
+  font-weight: 400;
+  font-size: 0.7em;
+  color: hsl(215, 51%, 70%);
+}
+body main .tarjeta hr {
+  height: 1px;
+  background-color: rgb(47, 65, 91) 0;
+  border: none;
+  margin-bottom: 0.8em;
+}
+body main .tarjeta .texto4 {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+body main .tarjeta .texto4 button {
+  background-color: hsl(216, 50%, 16%);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+body main .tarjeta .texto4 button .fa-cart-arrow-down {
+  width: 25px;
+  height: 25px;
+}
+body main .tarjeta .texto4 button span {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.7em;
+  padding-top: 0.2em;
+}
+body footer {
+  height: 220px;
+  padding: 0px 30px;
+  border-bottom: 2px solid hsl(216, 50%, 16%);
+  box-shadow: 0px 5px 20px hsl(0, 0%, 100%);
+}
+@media only screen and (min-width: 660px) {
+  body footer {
+    padding: 10px 70px 0px 50px;
+  }
+}
+@media only screen and (min-width: 960px) {
+  body footer {
+    padding: 10px 100px 0px 50px;
+    height: 220px;
+  }
+}
+body footer .formulari h2 {
+  text-align: center;
+  color: hsl(178, 100%, 50%);
+  text-shadow: 0 0 3px hsl(0, 0%, 100%);
+}
+body footer .formulari form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body footer .formulari form .field {
+  margin-bottom: 10px;
+}
+body footer .formulari form .field label {
+  display: block;
+  font-size: 14px;
+  color: hsl(178, 100%, 50%);
+  text-shadow: 0 0 3px hsl(0, 0%, 100%);
+}
+body footer .formulari form .field input {
+  color: hsl(0, 0%, 100%);
+  display: block;
+  min-width: 250px;
+  line-height: 1.5;
+  font-size: 16px;
+  background: none;
+  border: 3px solid hsl(217, 54%, 11%);
+  box-shadow: inset 0 0 5px 2px hsl(215, 51%, 70%);
+  border-radius: 4px;
+}
+body footer .formulari form .submit {
+  display: block;
+  padding: 6px 30px;
+  font-size: 14px;
+  background-color: hsl(217, 54%, 11%);
+  color: hsl(178, 100%, 50%);
+  border: 3px solid hsl(217, 54%, 11%);
+  box-shadow: inset 0 0 5px 2px hsl(215, 51%, 70%);
+  border-radius: 4px;
+}/*# sourceMappingURL=style.css.map */
